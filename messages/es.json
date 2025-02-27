@@ -1,0 +1,180 @@
+{
+  "Home": {
+    "title": "Bienvenido a NumCore",
+    "description": "NumCore es una herramienta web diseñada para estudiantes, ingenieros y profesionales que necesitan resolver problemas matemáticos utilizando métodos numéricos. Con una interfaz intuitiva y potentes algoritmos, la aplicación permite obtener resultados precisos en cuestión de segundos.",
+    "button": "Iniciar Calculadora"
+  },
+  "Sidebar": {
+    "findRoots": "Hallar raíces",
+    "bisection": "Bisección",
+    "interpolation": "Interpolación",
+    "rooting": "Radicación",
+    "iterativeRooting": "Radicación Iterativa"
+  },
+  "LanguageSwitcher": {
+    "US": "Inglés",
+    "ES": "Español",
+    "placeholder": "Idioma"
+  },
+  "Calculator": {
+    "title": "Bienvenido a la calculadora de NumCore",
+    "description": "Esta calculadora te permite resolver problemas numéricos de manera eficiente y visual. Puedes encontrar raíces de funciones, interpolar datos, realizar radicación iterativa, y visualizar los resultados en tablas y gráficos interactivos.",
+    "roots": "Encuentra raíces de ecuaciones con precisión.",
+    "interpolate": "Interpola conjuntos de datos y genera funciones.",
+    "rooting": "Realiza radicación iterativa.",
+    "graphs": "Explora los resultados mediante gráficos interactivos.",
+    "footer": "Explora las herramientas disponibles en el menú lateral izquierdo y elige el método numérico que mejor se adapte a tu problema. ¡Empieza a calcular ahora!"
+  },
+  "Graphs": {
+    "graphTitle": "Gráfica",
+    "graphXAxis": "Eje X",
+    "graphYAxis": "Eje Y"
+  },
+  "Tables": {
+    "noIterations": "No hay iteraciones",
+    "noCoefficients": "No hay coeficientes calculados",
+    "bestIteration": "Mejor Iteración",
+    "coefficient": "Coeficiente",
+    "coefficients": "Coeficientes",
+    "interpolantPolynomial": "Polinomio interpolante",
+    "difference": "Diferencia"
+  },
+  "Shared": {
+    "descriptionTitle": "Descripción",
+    "formulaTitle": "Fórmulas",
+    "descriptionLink": "aquí.",
+    "button": "Iniciar Calculadora",
+    "paramsTitle": "Parámetros de Entrada",
+    "funcLabel": "Función f(x):",
+    "initialValueLabel": "Valor Inicial",
+    "decimalLabel": "Número de Decimales:",
+    "indexLabel": "Índice",
+    "pointsLabel": "Puntos (formato: x0,y0 ; x1,y1 ;...)",
+    "toleranceLabel": "Tolerancia:",
+    "calculateButton": "Calcular",
+    "advice": {
+      "1": "Si tienes problemas con la sintaxis de la función, consulta la",
+      "2": "documentación de funciones de mathjs",
+      "3": "y la",
+      "4": "documentación de constantes de mathjs."
+    },
+    "resultsTitle": "Resultados",
+    "variables": {
+      "iter": "Iteracion",
+      "error": "Error"
+    },
+    "errors": {
+      "func": "Debes ingresar una función.",
+      "number": "Debes ingresar un número.",
+      "index": "Debes ingresar un índice.",
+      "tolerance": "La tolerancia debe estar entre 0.000001 y 0.1.",
+      "decimal": "El número de decimales debe ser un entero entre 1 y 10.",
+      "unexpected": "Ocurrió un error inesperado.",
+      "points": "Debes ingresar puntos válidos.",
+      "pointsFormat": "Formato incorrecto. Usa 'x0,y0;x1,y1;...'"
+    }
+  },
+  "NewtonRaphson": {
+    "title": "Método de Newton-Raphson",
+    "description": {
+      "1": "El método de Newton-Raphson es un algoritmo iterativo utilizado para encontrar las raíces de una función. Partiendo de un valor inicial",
+      "2": ", el método utiliza la derivada de la función para aproximarse a la raíz de manera rápida y eficiente. El proceso se repite hasta que el error entre iteraciones sucesivas es menor que una tolerancia especificada. Puedes encontrar información detallada de este método"
+    },
+    "formula": {
+      "1": "El método de Newton-Raphson se basa en la siguiente fórmula iterativa:",
+      "2": "Donde:",
+      "3": "Valor actual de la aproximación",
+      "4": "Nuevo valor de la aproximación",
+      "5": "Valor de la función en ",
+      "6": "Valor de la derivada de la función en",
+      "7": "El proceso se repite hasta que el error es menor que la tolerancia especificada:",
+      "8": "Error",
+      "9": "Tolerancia"
+    },
+    "errors": {
+      "initialValue": "El valor inicial no es un número válido.",
+      "funcError": "Error al evaluar la función o su derivada.",
+      "derivativeZero": "La derivada de la función es cero. No se puede continuar."
+    }
+  },
+  "Biseccion": {
+    "title": "Método de Bisección",
+    "description": {
+      "1": "El método de bisección es un algoritmo numérico utilizado para encontrar raíces de una función continua en un intervalo dado. Se basa en el Teorema del valor intermedio, que establece que si una función",
+      "2": "es continua en un intervalo",
+      "3": "y cambia de signo en los extremos del intervalo, entonces existe al menos una raíz en ese intervalo. El método divide repetidamente el intervalo a la mitad hasta alcanzar una tolerancia especificada. Puedes encontrar información detallada de este método"
+    },
+    "formula": {
+      "1": "El método de bisección sigue estos pasos iterativos:",
+      "2": "Donde:",
+      "3": "Extremos del intervalo",
+      "4": "Punto medio del intervalo",
+      "5": "Se evalúa el signo de",
+      "6": "Si",
+      "7": "la raíz está en",
+      "8": "entonces se actualiza",
+      "9": "entonces",
+      "10": "es la raíz exacta",
+      "11": "El proceso se repite hasta que el error cumpla la condición:",
+      "12": "Error",
+      "13": "Tolerancia"
+    },
+    "errors": {
+      "a": "El valor de 'a' debe ser menor que 'b'.",
+      "b": "El valor de 'b' debe ser mayor que 'a'.",
+      "signs": "Los valores de f(a) y f(b) deben tener signos opuestos."
+    }
+  },
+  "Lagrange": {
+    "title": "Interpolación de Lagrange",
+    "description": "El método de interpolación de Lagrange es una técnica utilizada para encontrar un polinomio que pase exactamente por un conjunto de puntos dados. Este método es particularmente útil cuando se tienen datos discretos y se desea construir una función que los represente. El polinomio interpolante de Lagrange se construye como una combinación lineal de funciones base llamadas polinomios fundamentales de Lagrange. Puedes encontrar información detallada sobre este método.",
+
+    "formula": {
+      "1": "El polinomio interpolante de Lagrange se expresa como:",
+      "2": "donde los polinomios fundamentales de Lagrange",
+      "3": "están definidos como:",
+      "4": "Donde:",
+      "5": "Puntos dados en el conjunto de datos",
+      "6": "Valores de la función en los puntos",
+      "7": "Polinomios base de Lagrange",
+      "8": "Polinomio interpolante resultante"
+    }
+  },
+  "Newton": {
+    "title": "Interpolación de Newton",
+    "description": "El método de interpolación de Newton es una técnica utilizada para construir un polinomio que pasa a través de un conjunto dado de puntos. Este método es particularmente útil cuando se desea aproximar una función desconocida a partir de datos discretos. El polinomio resultante se expresa en términos de diferencias divididas, lo que permite una construcción eficiente y flexible. Puedes encontrar información detallada sobre este método.",
+
+    "formula": {
+      "1": "El método de interpolación de Newton se basa en la construcción de un polinomio utilizando diferencias divididas. El polinomio interpolante se expresa como:",
+      "2": "Donde:",
+      "3": "Valor de la función en el punto",
+      "4": "Primera diferencia dividida entre",
+      "5": "Segunda diferencia dividida entre",
+      "6": "Diferencia dividida de orden",
+      "7": "Las diferencias divididas se calculan recursivamente mediante la siguiente fórmula:"
+    }
+  },
+  "IterativeRooting": {
+    "title": "Radicación Iterativa",
+    "description": "La radicación iterativa es un método numérico utilizado para calcular la raíz enésima de un número de manera aproximada. Este método se basa en la mejora sucesiva de una estimación inicial mediante fórmulas iterativas, permitiendo una convergencia eficiente hacia la solución deseada. Es ampliamente utilizado en aplicaciones donde los métodos directos no son factibles o eficientes. Puedes encontrar información detallada de este método.",
+
+    "numberLabel": "Radicando",
+    "indexPlaceholder": "2 (Raíz Cuadrada)",
+
+    "formula": {
+      "1": "Un método iterativo para calcular la raíz enésima de un número",
+      "2": "es:",
+      "3": "Donde:",
+      "4": "es la aproximación en la iteración",
+      "5": "El proceso se repite hasta que el error es menor que la tolerancia especificada:",
+      "6": "Error",
+      "7": "Tolerancia"
+    },
+    "errors": {
+      "validNumber": "El radicando no es un número válido.",
+      "validIndex": "El valor del índice no es un número válido.",
+      "negativeIndex": "El índice debe ser mayor que 0.",
+      "validOperation": "No se puede calcular la raíz par de un número negativo."
+    }
+  }
+}

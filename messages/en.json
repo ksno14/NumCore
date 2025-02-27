@@ -1,0 +1,176 @@
+{
+  "Home": {
+    "title": "Welcome to Numcore",
+    "description": "NumCore is a web-based tool designed for students, engineers and professionals who need to solve mathematical problems using numerical methods. With an intuitive interface and powerful algorithms, the application allows you to obtain accurate results in a matter of seconds.",
+    "button": "Start calculator"
+  },
+  "Sidebar": {
+    "findRoots": "Find roots",
+    "bisection": "Bisection",
+    "interpolation": "Interpolation",
+    "rooting": "Rooting",
+    "iterativeRooting": "Iterative rooting"
+  },
+  "LanguageSwitcher": {
+    "US": "English",
+    "ES": "Spanish",
+    "placeholder": "Language"
+  },
+  "Calculator": {
+    "title": "Welcome to Numcore calculator",
+    "description": "This calculator allows you to solve numerical problems efficiently and visually. You can find roots of functions, interpolate data, do iterative rooting, and visualize the results in interactive tables and graphs.",
+    "roots": "Find roots of equations with precision.",
+    "interpolate": "Interpolate data sets and generates functions.",
+    "rooting": "Do iterative rooting.",
+    "graphs": "Explore the results through interactive graphics.",
+    "footer": "Explore the tools available in the left side menu and choose the numerical method that best suits your problem. Start calculating now!"
+  },
+  "Graphs": {
+    "graphTitle": "Graph",
+    "graphXAxis": "X axis",
+    "graphYAxis": "Y axis"
+  },
+  "Tables": {
+    "noIterations": "There are no iterations",
+    "noCoefficients": "No calculated coefficients",
+    "bestIteration": "Best iteration",
+    "coefficient": "Coefficient",
+    "coefficients": "Coefficients",
+    "interpolantPolynomial": "Interpoling polynomial",
+    "difference": "Difference"
+  },
+  "Shared": {
+    "descriptionTitle": "Description",
+    "formulaTitle": "Formulas",
+    "descriptionLink": "here.",
+    "button": "Start calculator",
+    "paramsTitle": "Input parameters",
+    "funcLabel": "Function f (x):",
+    "initialValueLabel": "Initial value",
+    "decimalLabel": "Number of decimals:",
+    "indexLabel": "Index",
+    "pointsLabel": "Points (format: x0, y0; x1, y1; ...)",
+    "toleranceLabel": "Tolerance:",
+    "calculateButton": "Calculate",
+    "advice": {
+      "1": "If you have problems with the syntax of the function, consult the",
+      "2": "mathjs functions documentation",
+      "3": "and the",
+      "4": "mathjs constant documentation."
+    },
+    "resultsTitle": "Results",
+    "variables": {
+      "iter": "Iteration",
+      "error": "Error"
+    },
+    "errors": {
+      "func": "You must enter a function.",
+      "number": "You must enter a number.",
+      "index": "You must enter an index.",
+      "tolerance": "Tolerance must be between 0.000001 and 0.1.",
+      "decimal": "The number of decimals must be an integer between 1 and 10.",
+      "unexpected": "An unexpected error occurred.",
+      "points": "You must enter valid points.",
+      "pointsFormat": "Incorrect format. "
+    }
+  },
+  "NewtonRaphson": {
+    "title": "Newton-Raphson method",
+    "description": {
+      "1": "The Newton-Raphson method is an iterative algorithm used to find the roots of a function. Starting from an initial value",
+      "2": ", the method uses the derivative of the function to approximate the root quickly and efficiently. The process is repeated until the error between successive iterations is less than a specified tolerance. You can find detailed information about this method"
+    },
+    "formula": {
+      "1": "Newton-Raphson's method is based on the following iterative formula:",
+      "2": "Where:",
+      "3": "Current value of the approximation",
+      "4": "New approximation value",
+      "5": "Function value in ",
+      "6": "Value of the function derived in",
+      "7": "The process is repeated until the error is less than the specified tolerance:",
+      "8": "Error",
+      "9": "Tolerance"
+    },
+    "errors": {
+      "initialValue": "The initial value is not a valid number.",
+      "funcError": "Error when evaluating the function or its derivative.",
+      "derivativeZero": "The function derived is zero. "
+    }
+  },
+  "Biseccion": {
+    "title": "Bissection method",
+    "description": {
+      "1": "The bisection method is a numerical algorithm used to find roots of a continuous function on a given interval. It is based on the Intermediate Value Theorem, which states that if a function",
+      "2": "is continuous on an interval",
+      "3": "and changes sign at the interval's endpoints, then there exists at least one root in that interval. The method repeatedly halves the interval until a specified tolerance is reached. Detailed information on this method can be found"
+    },
+    "formula": {
+      "1": "The bissection method follows these iterative steps:",
+      "2": "Where:",
+      "3": "Ends of the interval",
+      "4": "Midpoint of the interval",
+      "5": "The sign of",
+      "6": "If",
+      "7": "The root is in",
+      "8": "Then it is updated",
+      "9": "so",
+      "10": "is the exact root",
+      "11": "The process is repeated until the error meets the condition:",
+      "12": "Error",
+      "13": "Tolerance"
+    },
+    "errors": {
+      "a": "The value of 'a' must be less than 'b'.",
+      "b": "The value of 'b' must be greater than 'a'.",
+      "signs": "The values of f (a) and f (b) must have opposite signs."
+    }
+  },
+  "Lagrange": {
+    "title": "Lagrange interpolation",
+    "description": "Lagrange interpolation method is a technique used to find a polynomial that passes exactly through a given set of points. This method is particularly useful when you have discrete data and you want to build a function that represents it. The Lagrange interpolation polynomial is built as a linear combination of basis functions called fundamental Lagrange polynomials. You can find detailed information about this method.",
+    "formula": {
+      "1": "Lagrange's interpolation polynomial is expressed as:",
+      "2": "where the fundamental polynomials of Lagrange",
+      "3": "They are defined as:",
+      "4": "Where:",
+      "5": "Points given in the data set",
+      "6": "Function values at points",
+      "7": "Lagrange base polynomials",
+      "8": "Resulting interpolation polynomial"
+    }
+  },
+  "Newton": {
+    "title": "Newton's interpolation",
+    "description": "Newton's interpolation method is a technique used to construct a polynomial that passes through a given set of points. This method is particularly useful when one wishes to approximate an unknown function from discrete data. The resulting polynomial is expressed in terms of divided differences, allowing for efficient and flexible construction. Detailed information on this method can be found here.",
+    "formula": {
+      "1": "Newton's interpolation method is based on the construction of a polynomial using divided differences. ",
+      "2": "Where:",
+      "3": "Function value at the point",
+      "4": "First divided differences by",
+      "5": "Second divided differences by",
+      "6": "Divided difference of order",
+      "7": "Divided differences are calculated recursively by the following formula:"
+    }
+  },
+  "IterativeRooting": {
+    "title": "Iterative rooting",
+    "description": "Iterative rooting is a numerical method used to calculate the nth root of a number approximately. This method is based on the successive improvement of an initial estimate using iterative formulas, allowing efficient convergence towards the desired solution. It is widely used in applications where direct methods are not feasible or efficient. You can find detailed information about this method.",
+    "numberLabel": "Radicand",
+    "indexPlaceholder": "2 (square root)",
+    "formula": {
+      "1": "An iterative method to calculate the nth root of a number",
+      "2": "is:",
+      "3": "Where:",
+      "4": "It is the approach to the iteration",
+      "5": "The process is repeated until the error is less than the specified tolerance:",
+      "6": "Error",
+      "7": "Tolerance"
+    },
+    "errors": {
+      "validNumber": "Radicand is not a valid number.",
+      "validIndex": "The index value is not a valid number.",
+      "negativeIndex": "The index must be greater than 0.",
+      "validOperation": "The even square root of a negative number cannot be calculated."
+    }
+  }
+}
