@@ -2,7 +2,10 @@
   "Home": {
     "title": "Bienvenido a NumCore",
     "description": "NumCore es una herramienta web diseñada para estudiantes, ingenieros y profesionales que necesitan resolver problemas matemáticos utilizando métodos numéricos. Con una interfaz intuitiva y potentes algoritmos, la aplicación permite obtener resultados precisos en cuestión de segundos.",
-    "button": "Iniciar Calculadora"
+    "button": "Iniciar Calculadora",
+    "contributeTitle": "Contribuye a NumCore",
+    "contributeDescription": "Creemos en la colaboración de código abierto. Si quieres contribuir, consulta nuestro repositorio en GitHub.",
+    "github": "GitHub del proyecto"
   },
   "Sidebar": {
     "findRoots": "Hallar raíces",

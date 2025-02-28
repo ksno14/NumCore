@@ -10,6 +10,7 @@ export default function Calculator() {
   const t = useTranslations("Calculator");
   return (
     <div className="min-h-screen bg-white text-black ">
+      <div className="pr-2 pl-2 pb-9 max-w-full">
       <NavBar />
       <div className="flex flex-col items-center mb-4">
         <h1 className="text-4xl font-bold mb-6 mt-10 text-center">
@@ -81,6 +82,11 @@ export default function Calculator() {
 
         <p className="text-lg text-center max-w-2xl mt-6 mb-6">{t("footer")}</p>
       </div>
+      </div>
     </div>
   );
 }
+
+
+
+

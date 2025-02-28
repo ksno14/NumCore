@@ -2,14 +2,17 @@
   "Home": {
     "title": "Welcome to Numcore",
     "description": "NumCore is a web-based tool designed for students, engineers and professionals who need to solve mathematical problems using numerical methods. With an intuitive interface and powerful algorithms, the application allows you to obtain accurate results in a matter of seconds.",
-    "button": "Start calculator"
+    "button": "Start calculator",
+    "contributeTitle": "Contribute to NumCore",
+    "contributeDescription": "We believe in open-source collaboration. If you'd like to contribute, check out our repository on GitHub.",
+    "github": "Project's GitHub"
   },
   "Sidebar": {
     "findRoots": "Find roots",
     "bisection": "Bisection",
     "interpolation": "Interpolation",
-    "rooting": "Rooting",
-    "iterativeRooting": "Iterative rooting"
+    "rooting": "Nth root",
+    "iterativeRooting": "Nth root of a number"
   },
   "LanguageSwitcher": {
     "US": "English",
@@ -18,10 +21,10 @@
   },
   "Calculator": {
     "title": "Welcome to Numcore calculator",
-    "description": "This calculator allows you to solve numerical problems efficiently and visually. You can find roots of functions, interpolate data, do iterative rooting, and visualize the results in interactive tables and graphs.",
+    "description": "This calculator allows you to solve numerical problems efficiently and visually. You can find roots of functions, interpolate data, find the nth root of a number, and visualize the results in interactive tables and graphs.",
     "roots": "Find roots of equations with precision.",
     "interpolate": "Interpolate data sets and generates functions.",
-    "rooting": "Do iterative rooting.",
+    "rooting": "Find the nth root of a number.",
     "graphs": "Explore the results through interactive graphics.",
     "footer": "Explore the tools available in the left side menu and choose the numerical method that best suits your problem. Start calculating now!"
   },
@@ -153,8 +156,8 @@
     }
   },
   "IterativeRooting": {
-    "title": "Iterative rooting",
-    "description": "Iterative rooting is a numerical method used to calculate the nth root of a number approximately. This method is based on the successive improvement of an initial estimate using iterative formulas, allowing efficient convergence towards the desired solution. It is widely used in applications where direct methods are not feasible or efficient. You can find detailed information about this method.",
+    "title": "Find the nth root of a number iteratively",
+    "description": "This is a numerical method used to calculate the nth root of a number approximately. This method is based on the successive improvement of an initial estimate using iterative formulas, allowing efficient convergence towards the desired solution. It is widely used in applications where direct methods are not feasible or efficient. You can find detailed information about this method.",
     "numberLabel": "Radicand",
     "indexPlaceholder": "2 (square root)",
     "formula": {

@@ -34,11 +34,11 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <body className={`${varelaRound.variable} antialiased`}>
+      <body className={`${varelaRound.variable} antialiased h-full`}>
         <NextIntlClientProvider messages={messages}>
-          <div className="flex bg-white">
+          <div className="flex bg-white ">
             <Sidebar />
-            <div>{children}</div>
+            <div className="flex-1 h-full">{children}</div>
           </div>
         </NextIntlClientProvider>
       </body>
